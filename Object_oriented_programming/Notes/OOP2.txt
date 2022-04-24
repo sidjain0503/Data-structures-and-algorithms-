@@ -1,0 +1,39 @@
+Packages, Static, Singleton Class, In-built Methods
+
+
+
+Packages : A java package is a group of similar types of classes, interfaces and sub-packages
+How does java knows which package to look for ? 
+we can import the package that we wanna use . 
+
+
+import static com.siddharth.packages.a.Message.message
+
+public class Greeting{
+    public static void main(String[] args){
+
+        message(); 
+    }
+}
+
+
+
+What is static in java ?? 
+
+Such Properties which are not related to the objects , but is common to all the objects of the class are called as static properties . 
+** So even no object is created you can still use the static methods and variables . 
+** thus you can use a main function without creating the object of that class . 
+Static methods and objects belongs to the class ,not to the object . 
+Inside a static method you cannot access non static data . 
+you cannot acess it without creating any object. 
+ex Human class : have properties --> 
+                                    age , name,salary , population 
+
+Important points for static stuff : 
+** You cannot use "this" inside any static block . 
+
+
+Singleton Class :
+When you have a class and you need just one instace of that class . 
+you should now allow anyh object to use the constructor then its just called one time . 
+ 

@@ -1,0 +1,61 @@
+Classes and objects : 
+
+Class : 
+Class is a template which has all methods and variables in it . 
+
+Objects : Class is a logical construct that doenst exists , but the object is something that actually exixts . 
+Object is an instance of object . 
+
+Properties of objects : 
+State ;  value from its data type 
+Identity : 
+behaviour : Effect of the data type operartions , 
+            methods and etc . 
+
+
+How do we create objects ? 
+
+new keyword : dynamically allocates memory and allocates a reference variable to the object . 
+All class objects are allocated dynamically . 
+
+Student stud1 = new Student();  
+
+Student() ---> is a constructor : a special function which runs when a object has been created . 
+
+
+Some key points : 
+By default values --> strings : null 
+                      int : 0 
+                      float : 0.0
+                      boolean  : false 
+
+If inside a class some default value is there       
+
+"this" keyword 
+
+
+
+constructor overloading ! 
+
+Student random = new Student(kunal);
+
+Student (Student other){
+    this.name = other.name; 
+    this.rno = other.rno ; 
+     
+}
+
+memory allocation of new keyword. 
+
+Wrapper classes : 
+    wrapper classes are used to initialise primitive data types as objects . 
+
+
+
+Final keyword --> 
+    final int INCREASE  = 10 ; 
+    // you cant modify this .  always initailise while 
+    
+
+
+Garbage Collection . 
